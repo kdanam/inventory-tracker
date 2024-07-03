@@ -1,0 +1,10 @@
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+header { background-color: #4CAF50; color: white; text-align: center; padding: 1em 0; position: relative; }
+.PDSL { font-size: 2.0em; position: absolute; top: 20px; right: 20px; }
+.container { display: flex; width: 100%; height: calc(100vh - 70px); }
+.section { flex: 1; padding: 20px; overflow-y: auto; }
+h2 { color: #4CAF50; }
+table { width: 100%; border-collapse: collapse; margin-bottom: 20px; text-align: center; }
+th, td { padding: 12px; border: 1px solid #ddd; text-align: left; }
+th { background-color: #f2f2f2; }
+header img { position: absolute; top: 10px; left: 20px; height: 50px; }

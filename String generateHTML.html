@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RFID Tag Reader</title>
+<style>
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+header { background-color: #4CAF50; color: white; text-align: center; padding: 1em 0; }
+.PDSL { font-size: 2.0em; position: absolute; top: 0; right: 20px; }
+.container { display: flex; width: 100%; height: calc(100vh - 70px); }
+.section { flex: 1; padding: 20px; overflow-y: auto; }
+h2 { color: #4CAF50; }
+table { width: 100%; border-collapse: collapse; margin-bottom: 20px; text-align: center; }
+th, td { padding: 12px; border: 1px solid #ddd; text-align: left; }
+th { background-color: #f2f2f2; }
+</style>
+<script>
+setInterval(() => { location.reload(); }, 2000); // Auto-refresh every 2 seconds
+</script>
+</head>
+<body>
+<header>
+<h1>RFID Tag Reader</h1>
+<div class="PDSL">PDSL</div>
+</header>
+<div class="container">
+<section class="section">
+<h2>Room 1</h2>
+<table>
+<thead>
+<tr><th>Tag ID</th><th>RSSI</th><th>Last Read Time</th></tr>
+</thead>
+<tbody>
+<!-- Room 1 data rows will be dynamically added here -->
+</tbody>
+</table>
+</section>
+<section class="section">
+<h2>Room 2</h2>
+<table>
+<thead>
+<tr><th>Tag ID</th><th>RSSI</th><th>Last Read Time</th></tr>
+</thead>
+<tbody>
+<!-- Room 2 data rows will be dynamically added here -->
+</tbody>
+</table>
+</section>
+<section class="section">
+<h2>Room 3</h2>
+<table>
+<thead>
+<tr><th>Tag ID</th><th>RSSI</th><th>Last Read Time</th></tr>
+</thead>
+<tbody>
+<!-- Room 3 data rows will be dynamically added here -->
+</tbody>
+</table>
+</section>
+</div>
+</body>
+</html>
